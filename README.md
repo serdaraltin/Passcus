@@ -22,7 +22,16 @@ Varsayılan Parola : **admin**
 - admin / admin
 
 #### Arayüz
-![Arayüz](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/4.png)
+![Arayüz](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/4.png)</br>
+- Menü
+- Kontroller
+- Arama
+- Veri Görüntüleme
+- Seçilen Veri Ayrıntı
+- Ekran Alıntısı
+
+#### Kayıt Ekleme
+![Arayüz](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/5.png)</br>
 - [x] Alan
 - [ ] Site
 - [x] Mail
