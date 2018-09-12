@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E84835F9-88AE-4BD7-9444-04A3C2B57230}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Passcus</RootNamespace>
+    <AssemblyName>Passcus</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Advanced_User_Accounts.png.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="access_renewal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="access_renewal.Designer.cs">
+      <DependentUpon>access_renewal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add.Designer.cs">
+      <DependentUpon>add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bakups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bakups.Designer.cs">
+      <DependentUpon>bakups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bakups_upload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bakups_upload.Designer.cs">
+      <DependentUpon>bakups_upload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>data.settings</DependentUpon>
+    </Compile>
+    <Compile Include="dataDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="event_daily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="event_daily.Designer.cs">
+      <DependentUpon>event_daily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ftpsync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ftpsync.Designer.cs">
+      <DependentUpon>ftpsync.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="new_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new_password.Designer.cs">
+      <DependentUpon>new_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="new_save.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new_save.Designer.cs">
+      <DependentUpon>new_save.cs</DependentUpon>
+    </Compile>
+    <Compile Include="opening.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opening.Designer.cs">
+      <DependentUpon>opening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="options.Designer.cs">
+      <DependentUpon>options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="screenshot_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="screenshot_view.Designer.cs">
+      <DependentUpon>screenshot_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="security.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="security.Designer.cs">
+      <DependentUpon>security.cs</DependentUpon>
+    </Compile>
+    <Compile Include="password_refresh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="password_refresh.Designer.cs">
+      <DependentUpon>password_refresh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="security_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="security_data.Designer.cs">
+      <DependentUpon>security_data.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="access_renewal.resx">
+      <DependentUpon>access_renewal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add.resx">
+      <DependentUpon>add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bakups.resx">
+      <DependentUpon>bakups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bakups_upload.resx">
+      <DependentUpon>bakups_upload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="event_daily.resx">
+      <DependentUpon>event_daily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ftpsync.resx">
+      <DependentUpon>ftpsync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_password.resx">
+      <DependentUpon>new_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_save.resx">
+      <DependentUpon>new_save.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opening.resx">
+      <DependentUpon>opening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options.resx">
+      <DependentUpon>options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screenshot_view.resx">
+      <DependentUpon>screenshot_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="security.resx">
+      <DependentUpon>security.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="password_refresh.resx">
+      <DependentUpon>password_refresh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="security_data.resx">
+      <DependentUpon>security_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="data.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>data.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dataDataSet.xsc">
+      <DependentUpon>dataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataDataSet.xss">
+      <DependentUpon>dataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dataDataSet1.xsc">
+      <DependentUpon>dataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dataDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataDataSet1.xss">
+      <DependentUpon>dataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Advanced_User_Accounts.png.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

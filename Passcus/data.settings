@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Passcus" GeneratedClassName="data">
+  <Profiles />
+  <Settings>
+    <Setting Name="otodata" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="idremember" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="otobackup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ftphost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">185.27.134.11</Value>
+    </Setting>
+    <Setting Name="ftpuser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">trtn_21163811</Value>
+    </Setting>
+    <Setting Name="ftppass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DeadSound1999.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
