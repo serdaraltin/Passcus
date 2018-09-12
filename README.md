@@ -31,7 +31,8 @@ Varsayılan Parola : **admin**
 - Ekran Alıntısı
 
 #### Kayıt Ekleme
-![Arayüz](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/5.png)</br>
+![Kayıt Ekleme](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/5.png)</br>
+- Yeni bir kayıt eklemek için.
 - [x] Alan
 - [ ] Site
 - [x] Mail
@@ -42,3 +43,14 @@ Varsayılan Parola : **admin**
 - [x] Olusturma
 - [ ] Son
 - [ ] Ek
+
+#### Olay Günlüğü
+![Olay Günlüğü](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/7.png)</br>
+- Yazılım içerisinde gerçekleşen kritik eylemleri listemek için.
+
+#### Ayarlar
+![Ayarlar](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/8.png)</br>
+- Bazı kişiselleştirmeler için.
+
+## HAKKINDA
+![HAKKINDA](https://github.com/serdaraltin/Passcus/blob/master/Passcus/bin/Debug/screenshot/9.png)</br>
